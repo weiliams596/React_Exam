@@ -115,6 +115,13 @@ const LogedIn = () => {
     localStorage.removeItem("userData");
     props.setShowElement(<Home />);
   };
+
+  React.useEffect(()=>{
+    if(JSON.parse(localStorage.getItem("userData"))){
+      props.username = JSON.parse(localStorage.getItem("userData")).username;
+      props.email = JSON.parse(localStorage.getItem("userData")).email;
+    }
+  });
   return (
     <div>
       <h1>Welcome, {props.username}</h1>
