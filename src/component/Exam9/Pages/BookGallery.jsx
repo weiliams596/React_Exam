@@ -22,7 +22,7 @@ export default function BookGallery() {
         console.log(allBooks);
     },[]);
   return (
-    <div>
+    <div className='book-gallery'>
       {allBooks && allBooks.map((book, index) =>{
         const index2= book.id;
         return (<Link key={index} to={`/exam9/book/${book.id}`}>

@@ -4,6 +4,8 @@ import { Outlet } from "react-router-dom";
 
 import Header from "./Components/Header";
 
+import './home.css'
+
 export default function Exam9() {
   const [status, setStatus] = useState("logout");
   const [isLoggedIn, setIsLoggedIn] = useState(false);

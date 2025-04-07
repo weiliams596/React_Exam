@@ -13,17 +13,6 @@
     align-items: center;
 }
 
-div{
-    width: 50%;
-    box-shadow:inset 0px 0px 20px #ccc;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #fff;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
 form{
     display: flex;
     flex-direction: column;
