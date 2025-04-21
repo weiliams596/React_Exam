@@ -6,6 +6,8 @@ import E9_2 from './component/Exam9/Pages/Home';
 import E9_3 from './component/Exam9/Pages/BookGallery';
 import E9_4 from './component/Exam9/Pages/Detail';
 
+
+import Exam10 from './component/Exam10/Exam';
 const routes =[
     {
         id:1,
@@ -23,6 +25,11 @@ const routes =[
             {id:2003,name:'Book Gallery',path:'/exam9/book-gallery',component:E9_3},
             {id:2004,name:'Detail',path:'/exam9/book/:id',component:E9_4}
         ]
+    },{
+        id:3,
+        name:'React exam 10',
+        path: '/exam10',
+        component: Exam10
     }
 ];
 

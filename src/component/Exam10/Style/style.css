@@ -1,0 +1,47 @@
+
+.exam10{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exam10 div{
+    display: flex;
+    align-items: center;
+}
+
+.exam10 h1{
+    text-align: center;
+}
+
+.product-list{
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+}
+
+.product-item,
+.cart-item{
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+}
+
+.product-item button,
+.cart-item button{
+    width: 150px;
+    height: 40px;
+}
+
+.cart-pluse-or-minus{
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-pluse-or-minus button{
+    width: 40px;
+    height: 40px;
+}
